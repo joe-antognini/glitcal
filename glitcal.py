@@ -527,16 +527,16 @@ for yr in range(min_yr, max_yr + 1):
         print "%s Sunday after Epiphany (St. Anthony of the Desert),%d/%d/%d,<a href=\'http://www.fisheaters.com/customstimeafterepiphany1.html\'>Time after Epiphany Overview</a> (St. Anthony of the Desert)" % (nth[i], sunday.month, sunday.day, sunday.year)
       elif sunday == dt.date(yr, 1, 21):
         dates.append(sunday)
-        print "%s Sunday after Epiphany (St. Agnes),%d/%d/%d,<a href=\'http://www.fisheaters.com/customstimeafterepiphany1.html\'>Time after Epiphany Overview</a> <a href=\'http://www.fisheaters.com/customstimeafterepiphany2.html\'>(St. Agnes)</a>" % (nth[i], sunday.month, sunday.day, sunday.year, nth[i])
+        print "%s Sunday after Epiphany (St. Agnes),%d/%d/%d,<a href=\'http://www.fisheaters.com/customstimeafterepiphany1.html\'>Time after Epiphany Overview</a> <a href=\'http://www.fisheaters.com/customstimeafterepiphany2.html\'>(St. Agnes)</a>" % (nth[i], sunday.month, sunday.day, sunday.year)
       elif sunday == dt.date(yr, 2, 1):
         dates.append(sunday)
-        print "%s Sunday after Epiphany (St. Brigid),%d/%d/%d,<a href=\'http://www.fisheaters.com/customstimeafterepiphany1.html\'>Time after Epiphany Overview</a> <a href=\'http://www.fisheaters.com/customstimeafterepiphany2a.html\'>(St. Brigid)</a>" % (nth[i], sunday.month, sunday.day, sunday.year, nth[i])
+        print "%s Sunday after Epiphany (St. Brigid),%d/%d/%d,<a href=\'http://www.fisheaters.com/customstimeafterepiphany1.html\'>Time after Epiphany Overview</a> <a href=\'http://www.fisheaters.com/customstimeafterepiphany2a.html\'>(St. Brigid)</a>" % (nth[i], sunday.month, sunday.day, sunday.year)
       elif sunday == dt.date(yr, 2, 3):
         dates.append(sunday)
-        print "%s Sunday after Epiphany (St. Blaise),%d/%d/%d,<a href=\'http://www.fisheaters.com/customstimeafterepiphany1.html\'>Time after Epiphany Overview</a> <a href=\'http://www.fisheaters.com/customstimeafterepiphany4.html\'>(St. Blaise)</a>" % (nth[i], sunday.month, sunday.day, sunday.year, nth[i])
+        print "%s Sunday after Epiphany (St. Blaise),%d/%d/%d,<a href=\'http://www.fisheaters.com/customstimeafterepiphany1.html\'>Time after Epiphany Overview</a> <a href=\'http://www.fisheaters.com/customstimeafterepiphany4.html\'>(St. Blaise)</a>" % (nth[i], sunday.month, sunday.day, sunday.year)
       elif sunday == dt.date(yr, 2, 14):
         dates.append(sunday)
-        print "%s Sunday after Epiphany (St. Valentine),%d/%d/%d,<a href=\'http://www.fisheaters.com/customstimeafterepiphany1.html\'>Time after Epiphany Overview</a> <a href=\'http://www.fisheaters.com/customstimeafterepiphany5.html\'>(St.  Valentine)</a>" % (nth[i], sunday.month, sunday.day, sunday.year, nth[i])
+        print "%s Sunday after Epiphany (St. Valentine),%d/%d/%d,<a href=\'http://www.fisheaters.com/customstimeafterepiphany1.html\'>Time after Epiphany Overview</a> <a href=\'http://www.fisheaters.com/customstimeafterepiphany5.html\'>(St.  Valentine)</a>" % (nth[i], sunday.month, sunday.day, sunday.year)
       else:
         dates.append(sunday)
         print "%s Sunday after Epiphany,%d/%d/%d,<a href=\'http://www.fisheaters.com/customstimeafterepiphany1.html\'>%s Sunday after Epiphany</a>" % (nth[i], sunday.month, sunday.day, sunday.year, nth[i])
